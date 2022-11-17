@@ -23,13 +23,14 @@
   font-family: 'Hiragino', sans-serif;
   font-weight: 300;
 
-  height: 100vh;
   width: 100%;
   display: inline-flex;
   flex-direction: column;
-  justify-content: space-between;
+  align-items: center;
+  /* justify-content: space-between; */
   font-size: 11px;
   line-height: 16px;
+  position: relative;
 }
 
 .container{
@@ -37,4 +38,7 @@
   height: 100%;
   padding: 0 160px;
  
+}
+.hidden{
+  display: none;
 }

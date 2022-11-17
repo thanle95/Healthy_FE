@@ -7,7 +7,7 @@ import MyRecordIcon from './commons/icons/MyRecordIcon';
 import NewsIcon from './commons/icons/NewsIcon';
 import Logo from './commons/Logo';
 import NavigationButton from './commons/NavigationButton';
-import TopMyPages from './pages/TopMyPage';
+import TopMyPage from './pages/TopMyPage';
 import BadgeButton from './commons/BadgeButton';
 import HexagonButton from './commons/HexagonButton';
 import src from './assets/icon_knife.png'
@@ -32,9 +32,11 @@ function App() {
     <HexagonButton title="Morning" icon={src}/>
     <Button title='記録をもっと見る'/>
     <MenuItem title='自分の記録'/>
-    <BackToTopButton/> */}
+    */}
     <Header/>
+    <TopMyPage/>
     <Footer/>
+    <BackToTopButton/> 
           </div>
   );
 }
