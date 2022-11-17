@@ -14,10 +14,12 @@ import src from './assets/icon_knife.png'
 import Button from './commons/Button';
 import MenuItem from './commons/MenuItem';
 import BackToTopButton from './commons/BackToTopButton';
+import Header from './commons/Header';
+import Footer from './commons/Footer';
 function App() {
   return (
     <div className="App">
-      <TopMyPages/>
+      {/* <TopMyPages/>
 
     <Logo/>
     <MyRecordIcon/>
@@ -30,7 +32,9 @@ function App() {
     <HexagonButton title="Morning" icon={src}/>
     <Button title='記録をもっと見る'/>
     <MenuItem title='自分の記録'/>
-    <BackToTopButton/>
+    <BackToTopButton/> */}
+    <Header/>
+    <Footer/>
           </div>
   );
 }

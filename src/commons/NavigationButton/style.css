@@ -3,12 +3,17 @@ button.ant-btn {
     height: 48px;
     padding: 8px;
 }
-button.ant-btn span{
+button.ant-btn.empty{
+    width: 0;
+}
+button.ant-btn > span{
     margin-left: 8px;
     width: 96px;
     height: 23px;
-    color: white;
+    color: var(--light-color);
     text-align: left;
+    font-size: 16px;
+    line-height: 23px;
 }
 /* button:hover{
 } */

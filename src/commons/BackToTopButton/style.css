@@ -4,7 +4,7 @@
   border: 1px solid var(--gray-400-color);
   background-color: transparent;
   border-radius: 50%;
-  color: white;
+  color: var(--light-color);
   font-family: "Inter", sans-serif;
   font-size: 18px;
   line-height: 26px;

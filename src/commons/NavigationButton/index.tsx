@@ -7,7 +7,7 @@ interface PropsNavigationButton {
     onClick?: React.MouseEventHandler<HTMLElement> | undefined
 }
 const NavigationButton =({title, icon, onClick}: PropsNavigationButton)=>{
-    return <Button type="text" icon={icon} onClick={onClick}>
+    return <Button type="text" icon={icon} onClick={onClick} className={`${title.length? '': 'empty'}`}>
     {title}
   </Button>
 }

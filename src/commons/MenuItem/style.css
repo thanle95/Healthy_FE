@@ -3,7 +3,7 @@
   height: 72px;
   background-color: var(--gray-400-color);
   border: none;
-  color: white;
+  color: var(--light-color);
   font-family: "Inter", sans-serif;
   font-size: 18px;
   line-height: 26px;

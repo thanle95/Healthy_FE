@@ -2,8 +2,8 @@
     content: " ";
     width: 0; height: 0;
     border-bottom: 36px solid transparent;
-    border-left: 58px solid white;
-    border-right: 58px solid white;
+    border-left: 58px solid var(--light-color);
+    border-right: 58px solid var(--light-color);
     position: absolute;
     top: 0px;
     left: 0px;
@@ -29,12 +29,12 @@
     bottom: 0px;
     left: 0px;
     border-top: 36px solid transparent;
-    border-left: 58px solid white;
-    border-right: 58px solid white;
+    border-left: 58px solid var(--light-color);
+    border-right: 58px solid var(--light-color);
 }
 
 .hex-title{
-    color: white;
+    color: var(--light-color);
     font-family: 'Inter', sans-serif; 
     margin-top: 5px;
     font-size: 20px;
