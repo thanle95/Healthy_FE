@@ -16,6 +16,7 @@ import MenuItem from './commons/MenuItem';
 import BackToTopButton from './commons/BackToTopButton';
 import Header from './commons/Header';
 import Footer from './commons/Footer';
+import MyRecord from './pages/MyRecord';
 function App() {
   return (
     <div className="App">
@@ -34,7 +35,8 @@ function App() {
     <MenuItem title='自分の記録'/>
     */}
     <Header/>
-    <TopMyPage/>
+    {/* <TopMyPage/> */}
+    <MyRecord/>
     <Footer/>
     <BackToTopButton/> 
           </div>

@@ -1,0 +1,16 @@
+.body-record-btn {
+  width: 56px;
+  height: 24px;
+  background-color: var(--light-color);
+  color: var(--primary-300-color);
+  border: none;
+  border-radius: 11px;
+  font-family: "Hiragino", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 300;
+}
+.primary {
+  color: var(--light-color);
+  background-color: var(--primary-300-color);
+}

@@ -1,0 +1,48 @@
+.body-record {
+  width: 100%;
+  height: 304px;
+  position: relative;
+  padding: 16px 24px;
+  background-color: var(--dark-500-color);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.body-record-img {
+  width: 100%;
+  height: 182px;
+  object-fit: fill;
+  position: relative;
+}
+
+.body-record .top {
+    display: inline-flex;
+  color: var(--light-color);
+}
+
+.body-record .top .title {
+  height: 36px;
+  width: 96px;
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  line-height: 18px;
+  font-weight: 400;
+  text-align: left;
+}
+.body-record .top .date {
+  height: 27px;
+  width: 146px;
+  font-size: 22px;
+  font-family: "Inter", sans-serif;
+  line-height: 27px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.body-record .bottom {
+  height: 24px;
+  padding-left: 8px;
+  display: inline-flex;
+  gap: 16px;
+  color: var(--light-color);
+}
