@@ -17,6 +17,7 @@ import BackToTopButton from './commons/BackToTopButton';
 import Header from './commons/Header';
 import Footer from './commons/Footer';
 import MyRecord from './pages/MyRecord';
+import Column from './pages/Column';
 function App() {
   return (
     <div className="App">
@@ -37,6 +38,7 @@ function App() {
     <Header/>
     {/* <TopMyPage/> */}
     <MyRecord/>
+    {/* <Column/> */}
     <Footer/>
     <BackToTopButton/> 
           </div>

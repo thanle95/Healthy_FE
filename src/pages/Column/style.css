@@ -1,0 +1,18 @@
+.column{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 120px;
+  gap: 56px;
+}
+.column .recommend-list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.column .scale-image-list{
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}

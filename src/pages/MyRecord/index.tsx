@@ -6,7 +6,7 @@ import Button from "../../commons/Button";
 import BodyRecord from "./BodyRecord";
 import Category from "./Category";
 import MyExercise from "./MyExercise";
-import MyDiary from "./MyExercise copy";
+import MyDiary from "./MyDiary";
 import "./style.css";
 function MyRecord() {
   return (
