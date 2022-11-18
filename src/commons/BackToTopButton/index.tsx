@@ -1,8 +1,7 @@
-import "./style.css";
-import icon from '../../assets/icon_back_to_top.png'
-import Icon from "../icons/Icon";
-import {Image} from 'antd'
+import { Image } from 'antd';
 import { useEffect, useState } from "react";
+import icon from '../../assets/icon_back_to_top.png';
+import "./style.css";
 interface PropsNavigationButton {
   onClick?: React.MouseEventHandler<HTMLElement> | undefined;
 }

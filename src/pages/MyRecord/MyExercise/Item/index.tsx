@@ -2,17 +2,15 @@ import mainGraph from "../../../assets/photoes/main_graph.png";
 import "./style.css";
 const Item = () => {
   return (
-    <li className="my-exercise-item" >
-      <div className="left">
-        <span className="text-light">●</span>
-        <div className="column">
-        <span className="title">家事全般（立位・軽い</span>
-        <span className="sub-title">26kcal</span>
+    <li className="my-exercise-item">
+      <div className="my-exercise-item-left">
+        <span className="my-exercise-item-text-light">●</span>
+        <div className="my-exercise-item-column">
+          <span className="my-exercise-item-title">家事全般（立位・軽い</span>
+          <span className="my-exercise-item-sub-title">26kcal</span>
         </div>
-        
       </div>
-      <span className="right">10 min</span>
-     
+      <span className="my-exercise-item-right">10 min</span>
     </li>
   );
 };

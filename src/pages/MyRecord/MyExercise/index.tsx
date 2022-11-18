@@ -3,7 +3,7 @@ import Item from "./Item";
 import "./style.css";
 const MyExercise = () => {
   return (
-    <div className="body-record" >
+    <div className="exercise" >
       <div className="top">
         <span className="title">MY EXERCISE</span>
         <span className="date">2021.05.21</span>

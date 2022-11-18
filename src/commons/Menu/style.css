@@ -1,0 +1,23 @@
+.btn-menu .menu-list {
+  position: absolute;
+  width: 280px;
+  top: 10px;
+  right: 8px;
+  display: flex;
+  flex-direction: column;
+}
+.menu-list .close-icon button {
+  padding: 0;
+  border: none;
+  color: var(--primary-400-color);
+  background-color: var(--dark-500-color);
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+
+.close-icon{
+  width: 100%;
+  display: flex;
+  justify-content: right;
+}
