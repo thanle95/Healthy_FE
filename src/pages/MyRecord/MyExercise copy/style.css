@@ -1,0 +1,32 @@
+.diary {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.diary-img {
+  width: 100%;
+  height: 182px;
+  object-fit: fill;
+  position: relative;
+}
+
+.diary .top {
+  display: inline-flex;
+}
+
+.diary .top .title {
+  height: 32px;
+  font-size: 22px;
+  font-family: "Inter", sans-serif;
+  line-height: 18px;
+  font-weight: 400;
+  text-align: left;
+}
+.diary>.diary-list {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}

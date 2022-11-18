@@ -1,3 +1,34 @@
 .my-exercise-item{
-  color: var(--light-color)
+  color: var(--light-color);
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--gray-400-color);
+}
+.my-exercise-item .left{
+  display: flex;
+  font-size: 5px;
+}
+.my-exercise-item .left > span {
+  width: 16px;
+  text-align: left;
+}
+.my-exercise-item .column{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.my-exercise-item .column .title{
+  font-size: 15px;
+  line-height: 22px;
+  font-family: 'Hiragino', sans-serif;
+}
+.my-exercise-item .column .sub-title, .my-exercise-item .right{
+  font-size: 15px;
+  line-height: 22px;
+  color: var(--primary-300-color);
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+.my-exercise-item .right{
+  font-size: 15px;
 }

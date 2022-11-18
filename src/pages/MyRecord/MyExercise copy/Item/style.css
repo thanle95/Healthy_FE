@@ -1,0 +1,26 @@
+.diary-item {
+  border: 2px solid #707070;
+  padding: 16px;
+  width: 231px;
+  height: 231px;
+}
+
+.diary-item-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 18px;
+  line-height: 22px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  width: 147px;
+  height: 48px;
+}
+
+.diary-item .content {
+  margin-top: 8px;
+  font-size: 12px;
+  line-height: 17px;
+  font-family: 'Hiragino', sans-serif;
+  text-align: left;
+}
